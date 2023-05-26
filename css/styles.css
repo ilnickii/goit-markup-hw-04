@@ -358,8 +358,6 @@ body {
 }
 
 .team-soc-link:hover,
-.footer-soc-link:hover,
-.footer-soc-link:focus,
 .team-soc-link:focus {
   background-color: #404bbf;
 }
@@ -457,6 +455,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
 }
 
 /* Gallery */
